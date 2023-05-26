@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Blur Tool</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Blur Tool</h1>
+    <div class="form-group">
+      <label for="image-upload">Upload an image:</label>
+      <input type="file" id="image-upload">
+    </div>
+    <div class="form-group">
+      <button id="blur-button">Blur Image</button>
+    </div>
+    <div class="image-preview">
+      <h3>Blurred Image Preview</h3>
+      <div class="imageOutline">
+         <img id="blurred-image" src="" alt="Blurred Image">
+      </div>
+     
+    </div>
+    <div class="form-group">
+      <button id="send-link-button" disabled>Send Blurred Image Link</button>
+    </div>
+    <div class="form-group">
+      <input type="text" id="image-link" readonly>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
